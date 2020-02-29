@@ -1,3 +1,17 @@
+*{
+    margin: 0; 
+    padding: 0;  
+    overflow-y:auto;
+}
+.container{
+    background-image: url("https://bit.ly/2HW16tb");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    text-align: center;
+    background-attachment: fixed;
+}
 #p{
     padding-top: 300px;
     color:black;
@@ -9,3 +23,20 @@ h1{
     font-size: 100px;
     color: red;
 }
+.about{
+    text-align: center;
+    background-color:black;
+    color: white;
+    font-size: larger;
+}
+table{
+    padding-left:50px;
+    padding-right: 50px;
+    margin: 30px;
+    border: 10px;
+    height: 100px;
+    padding-top: 3px;
+    background-color: forestgreen;
+    width: auto;
+}
+
