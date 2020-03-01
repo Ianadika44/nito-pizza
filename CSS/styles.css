@@ -48,4 +48,49 @@ table{
 .footer{
     text-align: center;
 }
+td{
+    height: 100px;
+    vertical-align: middle;
+    padding: 70px;
+    text-align: center;
+    width: auto;
+}
+#size:hover{
+    background-image: url("https://bit.ly/2TkNJYD");
+    height: 60px;
+    font-size: large;
+    color: black;
+    background-color: thistle;
+    background-size: cover;
+}
+#crust:hover{
+    background-image: url("https://bit.ly/2VrK7XF");
+    height: 60px;
+    font-size: large;
+    color: black;
+    background-size: cover;
+}
+#toppings:hover{
+    background-image: url("https://bit.ly/394bUBt");
+    height: 60px;
+    font-size: large;
+    color: black;
+    background-size: cover;
+}
+h5{
+    color: black;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+#quantity:hover{
+    background-image: url("https://bit.ly/2Pry4Ww");
+    height: 60px;
+    font-size: large;
+    color:rgb(2, 6, 27);
+    width: 100px;
+    background-size: cover;
+    font-size: 1000;
+    text-align: center;
+    font-size: xx-large;
+}
 
