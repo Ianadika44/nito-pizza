@@ -39,4 +39,13 @@ table{
     background-color: forestgreen;
     width: auto;
 }
+.one{
+    background-color: tomato;
+}
+.contact{
+    text-align: center;
+}
+.footer{
+    text-align: center;
+}
 
