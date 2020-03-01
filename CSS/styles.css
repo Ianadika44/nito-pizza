@@ -117,3 +117,9 @@ h5{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 900;
 }
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .about,table,#submit button,#add:hover,.contact,.footer,.container,.one.container-fluid,#size:hover,#crust:hover,#toppings:hover,#quantity:hover{
+         width: 100%;
+    } 
+}
