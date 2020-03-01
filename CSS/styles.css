@@ -141,3 +141,9 @@ h5{
          width: 100%;
     }    
 }
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .about,table,#submit button,#add:hover,.contact,.footer,.container,.one.container-fluid,#size:hover,#crust:hover,#toppings:hover,#quantity:hover{
+         width: 100%;
+    }    
+}
