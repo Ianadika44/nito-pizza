@@ -123,3 +123,9 @@ h5{
          width: 100%;
     } 
 }
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .about,table,#submit button,#add:hover,.contact,.footer,.container,.one.container-fluid,#size:hover,#crust:hover,#toppings:hover,#quantity:hover{
+         width: 100%;
+    }
+}
