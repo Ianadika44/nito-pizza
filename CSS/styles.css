@@ -55,7 +55,7 @@ td{
     text-align: center;
     width: auto;
 }
-#size:hover{
+.size:hover{
     background-image: url("https://bit.ly/2TkNJYD");
     height: 60px;
     font-size: large;
@@ -63,14 +63,14 @@ td{
     background-color: thistle;
     background-size: cover;
 }
-#crust:hover{
+.crust:hover{
     background-image: url("https://bit.ly/2VrK7XF");
     height: 60px;
     font-size: large;
     color: black;
     background-size: cover;
 }
-#toppings:hover{
+.toppings:hover{
     background-image: url("https://bit.ly/394bUBt");
     height: 60px;
     font-size: large;
@@ -82,7 +82,8 @@ h5{
     font-weight: bolder;
     font-size: xx-large;
 }
-#quantity:hover{
+
+.quantity:hover{
     background-image: url("https://bit.ly/2Pry4Ww");
     height: 60px;
     font-size: large;
