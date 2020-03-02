@@ -35,11 +35,11 @@
             <table>
                 <tc>
                     <form>
-                        <td class="size" id="size">
+                        <td class="size" id="sze">
                             <h5>Size</h5>
                             <label for="size"></label>
                             <select class="select" id="size" style="font-weight: 1000;">
-                                <option value="" style="color: black;">Select your size</option>
+                                <option style="color: black;">Select your size</option>
                                 <option value="1200" style="color: black;">Large =ksh 1200</option>
                                 <option value="800" style="color: black;">Medium =ksh 800</option>
                                 <option value="500" style="color: black;">Small= ksh500</option>
@@ -48,31 +48,31 @@
 
 
 
-                        <td class="crust" id="crust">
+                        <td class="crust" id="crt">
                             <h5>Crust</h5>
                             <label for="crust"></label>
                             <select class="select" id="crust" style="font-weight: 1000;" style="color: #000000;">
-                                <option value="" style="font-weight: 900px;">Select your crust</option>
-                                <option value="" style="color: black;">Cheese filled crust=ksh 300</option>
-                                <option value="" style="color: black;">Stuffed crust=ksh 250</option>
-                                <option value="" style="color: black;">Thin crust ksh=100</option>
-                                <option value="" style="color: black;">Thick crust=ksh 150</option>
+                                <option style="font-weight: 900px;">Select your crust</option>
+                                <option value="300" style="color: black;">Cheese filled crust=ksh 300</option>
+                                <option value="250" style="color: black;">Stuffed crust=ksh 250</option>
+                                <option value="100" style="color: black;">Thin crust ksh=100</option>
+                                <option value="150" style="color: black;">Thick crust=ksh 150</option>
                             </select><br>
                         </td><br>
 
-                        <td class="toppings" id="toppings">
+                        <td class="toppings" id="tpps">
                             <h5>Toppings</h5>
                             <label for="toppings"></label>
                             <select class="select" id="toppings" style="font-weight: 1000;" style="color: white; ">
-                                <option value="" style="color: black;" style="font-weight: 900px;">Select your toppings
+                                <option style="color: black;" style="font-weight: 900px;">Select your toppings
                                 </option>
-                                <option value="" style="color: black;">Pepperoni=ksh 300</option>
-                                <option value="" style="color: black;">Mushrooms=ksh 250</option>
-                                <option value="" style="color: black">Sausage ksh=100</option>
+                                <option value="300" style="color: black;">Pepperoni=ksh 300</option>
+                                <option value="250" style="color: black;">Mushrooms=ksh 250</option>
+                                <option value="100" style="color: black">Sausage ksh=100</option>
                             </select><br>
                         </td>
 
-                        <td class="quantity" id="quantity" style="width: 100%;">
+                        <td class="quantity" id="quant" style="width: 100%;">
                             <h5>Quantity</h5>
                             <label for="quantity width:20%;"></label>
                             <input type="number" id="quantity" style="font-weight: 1000;" style="color: black;"
@@ -80,7 +80,7 @@
                         </td>
                         <td class="add" id="add">
                             <div id="submit">
-                                <button type="button" style="color: blue;" onclick="myFunction()"
+                                <button type="button" style="color: blue;" value="Check-Out" onclick="getTotalAmount()"
                                     style="color: white;">Submit</button>
                             </div>
                         </td>
@@ -106,6 +106,7 @@
         <footer class="footer">
             <p> Copyright &copy;2020 Ian Adika|Contact </p>
         </footer>
+        <script src="./js/script.js"></script>
 
 
 </body>
