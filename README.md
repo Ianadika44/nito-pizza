@@ -14,3 +14,8 @@
 - One selects the desired toppings.
 - One selects the quantity up to 30 pizzas 
 - There is a submit button one where submits to get allert on the delivery details.
+## CONTACT INFORMATION
+- Email:adika19ian@gmail.com.
+- Phone:0757441659.
+## PROJECT'S LINK
+-  https://ianadika44.github.io/nito-pizza/
